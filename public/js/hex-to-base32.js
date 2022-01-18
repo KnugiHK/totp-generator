@@ -6,8 +6,7 @@ new Vue({
 
   computed: {
     base32: function () {
-      const buf = OTPAuth.Utils.hex.encode(this.hex);
-      return OTPAuth.Utils.b32.decode(buf);
+      return OTPAuth.Secret.fromHex(this.hex).base32;
     }
   }
 });

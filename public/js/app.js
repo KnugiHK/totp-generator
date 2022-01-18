@@ -61,7 +61,7 @@ new Vue({
         algorithm: 'SHA1',
         digits: this.digits,
         period: this.period,
-        secret: OTPAuth.Secret.fromB32(stripSpaces(this.secret_key)),
+        secret: OTPAuth.Secret.fromBase32(stripSpaces(this.secret_key)),
       });
     }
   },
