@@ -8,7 +8,7 @@ This page lets you easily generate a time-based one time password (TOTP) entirel
 
 It uses the excellent [otpauth](https://github.com/zant95/otpauth) package, downloaded from [raw.githubusercontent.com/zant95/otpauth/master/dist/otpauth.min.js](https://raw.githubusercontent.com/zant95/otpauth/master/dist/otpauth.min.js).
 
-This fork incorporated multiple PRs on the upstream and is being maintained.
+This fork incorporated multiple PRs on the upstreams and is being maintained.
 
 ## Providing parameters in the URL
 
